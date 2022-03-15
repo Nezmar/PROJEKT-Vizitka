@@ -8,12 +8,14 @@ body{color:#282425;
    line-height: 1.5;  
    font-family: 'Rubik', sans-serif;
    margin: 0;
+   
 }
 
 h1{color: #d63031;
     font-size: 36px;
     font-style:inherit;
     font-weight:bold;
+    position: relative; 
     
       
 
@@ -22,48 +24,52 @@ p{
 
     font-size: 18px;  
     font-family: sans-serif;
+    
    
 }
-.foto img{
-  
-    border-radius: 100px;
+  .foto img{
+
+    position: absolute;
+    top: -75px;
+    right: -75px;
     width: 150px;
-    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
     background: white;
-    display: inline-block;
-    text-decoration:none;
+    display: block;
     padding: 3px 3px;
-    object-position: top right;
+    
     
 }
-.foto {
-    position: relative;
-left: 950px;
-top: 250px;
 
-
-}
 
 .box {
 
-    
+    position: relative;
     background-color: white;
-    padding: 30px 30px 30px 30px;
-    margin: 150px 480px  150px 480px;
     border-radius: 10px;
-
-   
-
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    margin: 150px auto;
+    width: 550px;
+    display: block;
+    
 
 }
 .box1 {
      
     background-color:  #1da1f2;
-    padding: 10px 10px 10px 10px;
+    padding: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
     text-align: center;
-    margin: 5px;
     font-weight: bold;
-    border-radius: 10px;
+    color: white;
+    border-radius: 5px;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
    
     
   
@@ -71,11 +77,15 @@ top: 250px;
 .box2 {
      
     background-color:  #3b5998;
-    padding: 10px 10px 10px 10px;
+    padding: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
     text-align: center;
-    margin: 5px;
+    color: white;
     font-weight: bold;
-    border-radius: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
   
     
 }
@@ -94,6 +104,11 @@ text-transform: uppercase;
     text-decoration:none;
 }
 
+.jmeno {
+margin-top: 0;
+margin-bottom: 30px;
+
+}
   
 
 /*
